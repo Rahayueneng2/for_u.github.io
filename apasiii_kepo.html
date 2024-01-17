@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Selamat Ulang Tahun Cintakuu</title>
+    <style>
+        body {
+        	background-color:black;
+			color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        #card {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+        #message {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <h2>Happy Brithday to my partner in crime and my laughter buddy!!</h2>
+        <video width="250" height="360" controls>
+    		<source src="brithday_agi.mp4" type="video/mp4">
+    		Your browser does not support the video tag.
+		</video>
+        <p id="message">Selamat menua cintaku, selamat memulai perjalanan baru dengan umur kepala dua, apapun harapannya agi untuk kedepannya, ayu harap ayu jadi bagian orang yang mendukung dan mendampingi perjalanan agii. Happy brithday sayangku yang ke-<span id="age"></span>!</p>
+    </div>
+
+    <script>
+        document.getElementById('age').innerText = '20'; 
+    </script>
+</body>
+</html>
